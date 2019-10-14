@@ -3,7 +3,7 @@
 
 header {background-repeat: repeat;}
 
-body {background-color: #aec9d6; min-width: 240px; max-width: 1200px }
+body {background-color: #aec9d6; max-width: 1200px }
 
 /* nav bar */
 nav {padding-bottom: 1em; margin-top: 0px;
