@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Matts Cooking</title>
+  <title>Matts Cooking About Us Page</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="color.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body style="background-color:#669999;">
 
-  <header>
-        <a href="index.html"><img src="logo.jpg" height="100" width="240">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.jpg" alt="logo" style="width:100px;">
+    </a>
 
-  </header>
-
-  <nav>
-    <ul>
-      <li><a class="button" href="index.html">Home</a></li>
-      <li><a class="button" href="recipes.html">Recipes</a></li>
-      <li><a class="button" href="reviews.html">Reviews</a></li>
-      <li><a class="button" href="about.html">About</a></li>
-      <li><a class="button" href="contact.html">Contact</a></li>
-    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="collapsibleNavbar">
+     <ul class="navbar-nav">
+       <li class="nav-item">
+         <a class="nav-link" href="index.html">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="recipes.html">Recipes</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="about.html">About</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="contact.html">Contact Us</a>
+       </li>
+     </ul>
+   </div>
   </nav>
 
-  <main>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-         tempor incididunt ut labore et dolore magna aliqua. Eleifend quam adipiscing
-         vitae proin sagittis nisl rhoncus mattis rhoncus. Etiam sit amet nisl purus.
-         Amet nisl suscipit adipiscing bibendum est ultricies integer. Sollicitudin
-         tempor id eu nisl. Sit amet nisl purus in mollis. Enim tortor at auctor urna
-         nunc id cursus metus aliquam. Augue interdum velit euismod in.
-       </p>
+<div class="container-fluid">
+  <h3>Matts Cooking</h3>
+  <p>Lorem ipsum dolor sit amet. Aliquam eget sapien sapien. Curabitur in metus
+     urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+     vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor.
+  </p>
+</div>
 
-  </main>
-
-  <footer>
-
-  </footer>
+<footer class="page-footer font-small blue pt-1 text-light fixed-bottom bg-dark">
+<div class="footer-copyright text-center py-3">© 20xx Copyright
+</div>
+</footer>
 
 </body>
 </html>
