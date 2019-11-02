@@ -1,18 +1,31 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
 
-* { box-sizing: border-box; }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-header {background-repeat: repeat;}
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
+  }
 
-body {background-color: #aec9d6; max-width: 1200px }
+/**
+ * Footer Styles
+ */
 
-/* nav bar */
-nav {padding-bottom: 1em; margin-top: 0px;
-      color:#aec9d6; }
-      nav ul {list-style-type: none; height: auto;}
-      nav li {display: inline-block; padding-top: 2em;}
-      .button {text-decoration: none; font-size: 1.2em; text-align: center;
-          padding-top: 0.5em; padding-bottom: 0.5em; border: solid 2px #000000;
-          padding-left: 1.1em; padding-right: 1.1em}
-      .button:link { color:#000000;}
-      .button:visited { color: #191919}
-      .button:focus, .button:hover, .button:active { background-color: #7f0000;}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: #669999;
+  text-align: center;
+}

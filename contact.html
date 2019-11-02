@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="color.css">
 </head>
 <body style="background-color:#669999;">
 
@@ -47,7 +47,7 @@
 
     <div class="row">
 
-        <div class="col-md-9 mb-md-0 mb-5">
+        <div class="col-md-12 mb-md-0 mb-5">
             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                 <!--start 1st row-->
@@ -97,15 +97,20 @@
 
             </form>
 
-            <div class="text-center text-md-left pt-3">
+           <div class="row">
+             <div class="col-md-12">
+                <div class="text-center text-md-center pt-3">
                 <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
             <div class="status"></div>
         </div>
+        </div>
+        </div>
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-3 text-center">
+
+        <div class="col-md-12 text-center pt-3">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
                     <p>Minneapolis, MN 55455, USA</p>
@@ -115,7 +120,7 @@
                     <p>+ 1 234-567-8900</p>
                 </li>
 
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <li><i class="fas fa-envelope mt-2 fa-2x"></i>
                     <p>contact@mattscooking.com</p>
                 </li>
             </ul>
@@ -124,10 +129,12 @@
 </section>
 </div>
 
-<footer class="page-footer font-small blue pt-1 text-light fixed-bottom bg-dark">
+<div class="footer">
+<footer class="page-footer font-small blue pt-1 text-light bg-dark">
 <div class="footer-copyright text-center py-3">© 20xx Copyright
 </div>
 </footer>
+</div>
 
 </body>
 </html>
