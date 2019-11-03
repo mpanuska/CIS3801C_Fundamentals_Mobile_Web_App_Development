@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS testdb;
+CREATE DATABASE testdb;
+
+/*create recipes table*/
+DROP TABLE IF EXISTS recipe;
+CREATE TABLE recipe (
+recipeid mediumint,
+name varchar(255) default NULL,
+style varchar(255) default NULL,
+servings mediumint,
+minutes mediumint    
+);
+
